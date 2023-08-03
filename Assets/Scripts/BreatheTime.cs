@@ -21,7 +21,7 @@ public class BreatheTime : MonoBehaviour
         {
             if (isBreathing)
             {
-                textComponent.text = "Nefes Al " + count;
+                textComponent.text = "Breath In " + count;
                 count--;
 
                 if (count < 1)
@@ -33,7 +33,7 @@ public class BreatheTime : MonoBehaviour
             }
             else if (isHoldingBreath)
             {
-                textComponent.text = "Nefesini Tut " + count;
+                textComponent.text = "Hold Your Breath " + count;
                 count--;
 
                 if (count < 1)
@@ -45,7 +45,7 @@ public class BreatheTime : MonoBehaviour
             }
             else
             {
-                textComponent.text = "Nefes Ver " + count;
+                textComponent.text = "Breath Out " + count;
                 count--;
 
                 if (count < 1)

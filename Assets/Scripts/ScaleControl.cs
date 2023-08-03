@@ -8,6 +8,8 @@ public class ScaleControl : MonoBehaviour
     public float scaleStep = 0.1f; 
     public float scaleTarget = 1.0f; 
     public float breathHold = 5.0f;
+    public float breathIn = 5.0f;
+    public float breathOut = 5.0f;
 
     private void Start()
     {
