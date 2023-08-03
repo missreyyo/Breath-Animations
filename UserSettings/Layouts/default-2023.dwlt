@@ -315,7 +315,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 26070
+  m_LastSelectedObjectID: -8794
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -357,21 +357,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 82e2ffffc2e2ffff74e4ffff00e5ffff9ce5ffff12f9ffff02fbffff
+      m_ExpandedIDs: 8eb7ffffdab7ffff22b8ffff6eb8ffffb6b8fffffeb8ffff28baffffd6bcffff82bfffffb6caffffe6cbffff18cdffff58cdffff98cdffffe8ddffff8cdeffffd6deffff20dfffff06f9ffff02fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Triangle
+        m_OriginalName: Triangle
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 26838
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -844,9 +844,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.00999999, y: 2.34, z: 0}
+    m_Target: {x: -0.8746554, y: -0.40143976, z: -0.05642311}
     speed: 2
-    m_Value: {x: -0.00999999, y: 2.34, z: 0}
+    m_Value: {x: -0.8746554, y: -0.40143976, z: -0.05642311}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -896,9 +896,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.4282857
+    m_Target: 5.3169036
     speed: 2
-    m_Value: 1.4282857
+    m_Value: 5.3169036
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1091,9 +1091,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: e6630000
-    m_LastClickedID: 25574
-    m_ExpandedIDs: 00000000c463000000ca9a3bffffff7f
+    m_SelectedIDs: ea630000
+    m_LastClickedID: 25578
+    m_ExpandedIDs: 00000000c863000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1121,7 +1121,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c4630000
+    m_ExpandedIDs: 00000000c8630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
