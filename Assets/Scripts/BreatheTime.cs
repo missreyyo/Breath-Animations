@@ -6,12 +6,9 @@ using TMPro;
 public class BreatheTime : MonoBehaviour
 {
     public TextMeshPro textComponent;
-    public int breathIncount = 5;
-    public int breathHoldCount = 5;
-    public int breathOutCount = 5;
+    private int count = 5;
     private bool isBreathing = true;
     private bool isHoldingBreath = false;
-    
 
     private void Start()
     {
@@ -24,33 +21,36 @@ public class BreatheTime : MonoBehaviour
         {
             if (isBreathing)
             {
-                textComponent.text = "Nefes Al " + breathIncount;
-                breathIncount--;
+                textComponent.text = "Nefes Al " + count;
+                count--;
 
-                if (breathIncount < 1)
+                if (count < 1)
                 {
+                    count = 5;
                     isBreathing = false;
                     isHoldingBreath = true;
                 }
             }
             else if (isHoldingBreath)
             {
-                textComponent.text = "Nefesini Tut " + breathHoldCount;
-                breathHoldCount--;
+                textComponent.text = "Nefesini Tut " + count;
+                count--;
 
-                if (breathHoldCount < 1)
+                if (count < 1)
                 {
+                    count = 5;
                     isHoldingBreath = false;
                     isBreathing = false;
                 }
             }
             else
             {
-                textComponent.text = "Nefes Ver " + breathOutCount;
-                breathOutCount--;
+                textComponent.text = "Nefes Ver " + count;
+                count--;
 
-                if (breathOutCount < 1)
+                if (count < 1)
                 {
+                    count = 5;
                     isBreathing = true;
                     isHoldingBreath = false;
                 }
